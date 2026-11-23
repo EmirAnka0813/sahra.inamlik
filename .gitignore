@@ -1,3 +1,5 @@
 shots/
 .netlify/
 *.py
+_l.html
+_live.html
