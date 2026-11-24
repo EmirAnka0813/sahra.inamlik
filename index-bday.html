@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doğum Günün Kutlu Olsun Sahra! 🎂 29 Kasım</title>
+<meta name="description" content="Sahra İnamlık — 29 Kasım doğum günün kutlu olsun! Milli dansçımızın özel günü.">
+<meta property="og:title" content="Doğum Günün Kutlu Olsun Sahra! 🎂">
+<meta property="og:description" content="29 Kasım — Milli Dansçı Sahra İnamlık'ın doğum günü.">
+<meta property="og:image" content="https://emiranka0813.github.io/sahra.inamlik/photos/sampiyon.jpg">
+<meta property="og:url" content="https://emiranka0813.github.io/sahra.inamlik/index-bday.html">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{
+  --pink:#ff6b9d; --violet:#a76eff; --cyan:#50dcff; --gold:#ffd166;
+  --ink:#fff8fb; --muted:#ffd9e8; --deep:#0d0018;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+  color:var(--ink); background:var(--deep); overflow-x:hidden; cursor:none;
+  background-image:
+    radial-gradient(ellipse at 20% 18%, rgba(255,107,157,.22), transparent 55%),
+    radial-gradient(ellipse at 80% 30%, rgba(255,209,102,.16), transparent 55%),
+    radial-gradient(ellipse at 50% 85%, rgba(167,110,255,.2), transparent 58%);
+  background-attachment:fixed;
+}
+body::after{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(10,0,18,.65) 100%);
+}
+#stars{position:fixed;inset:0;z-index:1;pointer-events:none}
+
+/* ---- cursor ---- */
+.cursor-dot,.cursor-ring{position:fixed;pointer-events:none;z-index:9999;border-radius:50%;transform:translate(-50%,-50%)}
+.cursor-dot{width:7px;height:7px;background:radial-gradient(circle,#ffd700,#ff6b9d);box-shadow:0 0 18px #ffd700,0 0 36px #ff6b9d}
+.cursor-ring{width:38px;height:38px;border:1.5px solid rgba(255,215,0,.5);transition:width .25s,height .25s,border-color .25s,background .25s}
+.cursor-ring.hot{width:56px;height:56px;border-color:rgba(255,107,157,.85);background:rgba(255,107,157,.12)}
+
+/* ---- HERO ---- */
+.hero{
+  position:relative;z-index:3;min-height:100svh;display:flex;
+  flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:60px 24px;gap:22px;overflow:hidden;
+}
+.confetti{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.confetti i{
+  position:absolute;top:-20px;width:9px;height:15px;border-radius:2px;
+  opacity:.9;animation:fall linear infinite;
+}
+@keyframes fall{
+  0%{transform:translateY(-30px) rotate(0deg)}
+  100%{transform:translateY(105vh) rotate(720deg)}
+}
+.baloons{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.balloon{
+  position:absolute;bottom:-140px;width:52px;height:64px;border-radius:52% 52% 48% 48%;
+  animation:rise linear infinite;opacity:.85;
+}
+.balloon::after{
+  content:'';position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);
+  border-left:6px solid transparent;border-right:6px solid transparent;
+  border-bottom:14px solid rgba(255,255,255,.35);
+}
+@keyframes rise{
+  0%{transform:translateY(0) rotate(0deg)}
+  100%{transform:translateY(-118vh) rotate(22deg)}
+}
+
+.badge{
+  display:inline-flex;align-items:center;gap:9px;padding:9px 20px;border-radius:99px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);
+  font-size:13px;letter-spacing:2.6px;text-transform:uppercase;color:var(--gold);
+  backdrop-filter:blur(12px);animation:fadeUp .8s .1s both;
+}
+h1{
+  font-size:clamp(2.5rem,9vw,6.5rem);line-height:1.02;font-weight:800;letter-spacing:-2px;
+  background:linear-gradient(105deg,#ffd166 0%,#ff6b9d 32%,#a76eff 62%,#50dcff 100%);
+  background-size:220% 100%;-webkit-background-clip:text;background-clip:text;
+  color:transparent;animation:shift 8s ease infinite,fadeUp .9s .2s both;
+}
+@keyframes shift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.sub{
+  font-size:clamp(1.05rem,3.1vw,1.85rem);font-weight:300;color:var(--muted);
+  letter-spacing:.6px;animation:fadeUp .9s .35s both;
+}
+.date{
+  display:flex;align-items:center;gap:16px;animation:fadeUp .9s .5s both;
+}
+.date b{
+  font-size:clamp(2rem,5vw,3.4rem);font-weight:800;
+  background:linear-gradient(120deg,#ffd166,#ff6b9d);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.date span{width:52px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent)}
+.cta{
+  margin-top:10px;padding:15px 40px;border-radius:99px;border:none;cursor:none;
+  font-size:1.02rem;font-weight:700;letter-spacing:.4px;color:#2a0016;
+  background:linear-gradient(120deg,#ffd166,#ff6b9d 55%,#a76eff);
+  box-shadow:0 14px 42px rgba(255,107,157,.42);text-decoration:none;display:inline-block;
+  transition:transform .25s,box-shadow .25s;animation:fadeUp .9s .65s both;
+}
+.cta:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 20px 54px rgba(255,107,157,.6)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+
+.scroll{
+  position:absolute;bottom:26px;left:50%;transform:translateX(-50%);
+  font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.42);
+  animation:bob 2.4s ease-in-out infinite;z-index:4;
+}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,9px)}}
+
+/* ---- sections ---- */
+.wrap{position:relative;z-index:3;max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:88px 0}
+.stit{
+  font-size:clamp(1.7rem,4.6vw,2.9rem);font-weight:800;letter-spacing:-.8px;
+  margin-bottom:14px;
+  background:linear-gradient(110deg,#fff 10%,var(--pink) 55%,var(--cyan));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.ssub{color:var(--muted);font-size:1.03rem;line-height:1.75;max-width:720px;margin-bottom:38px}
+
+/* foto grid */
+.fotos{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:20px}
+.foto{
+  position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/5;
+  border:1px solid rgba(255,255,255,.11);cursor:pointer;
+  transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s;
+  box-shadow:0 18px 46px rgba(0,0,0,.42);
+}
+.foto:hover{transform:translateY(-10px) scale(1.025);box-shadow:0 30px 66px rgba(255,107,157,.3)}
+.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.foto figcaption{
+  position:absolute;inset:auto 0 0 0;padding:44px 20px 18px;
+  background:linear-gradient(transparent,rgba(8,0,14,.9));
+  font-size:.94rem;font-weight:600;letter-spacing:.3px;
+}
+
+/* mesaj */
+.mesaj{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.13);
+  border-radius:26px;padding:44px clamp(24px,5vw,54px);
+  backdrop-filter:blur(16px);font-size:clamp(1.02rem,2.3vw,1.22rem);
+  line-height:1.95;color:#fff4f8;position:relative;overflow:hidden;
+}
+.mesaj::before{
+  content:'“';position:absolute;top:-30px;left:16px;font-size:150px;
+  color:rgba(255,107,157,.16);font-family:Georgia,serif;line-height:1;
+}
+.mesaj p{margin-bottom:18px}
+.mesaj p:last-child{margin-bottom:0}
+.mesaj em{color:var(--gold);font-style:italic}
+
+/* rozetler */
+.rozetler{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.rozet{
+  background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.12);
+  border-radius:20px;padding:26px 22px;text-align:center;
+  transition:transform .3s,border-color .3s;
+}
+.rozet:hover{transform:translateY(-6px);border-color:rgba(255,209,102,.5)}
+.rozet .ico{font-size:2.3rem;margin-bottom:10px}
+.rozet b{display:block;font-size:1.02rem;margin-bottom:5px}
+.rozet small{color:var(--muted);font-size:.87rem;line-height:1.55}
+
+/* geri sayim */
+.sayac{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.sb{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);
+  border-radius:20px;padding:22px 26px;min-width:106px;text-align:center;
+  backdrop-filter:blur(12px);
+}
+.sb b{display:block;font-size:2.5rem;font-weight:800;line-height:1;
+  background:linear-gradient(120deg,#ffd166,#ff6b9d);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.sb small{color:var(--muted);font-size:.76rem;letter-spacing:1.8px;text-transform:uppercase}
+
+/* teşekkür */
+.tesek{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.tk{
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.11);
+  border-radius:20px;padding:28px 24px;
+}
+.tk h4{font-size:1.05rem;margin-bottom:8px;color:var(--gold)}
+.tk p{color:var(--muted);font-size:.93rem;line-height:1.7}
+
+footer{
+  position:relative;z-index:3;text-align:center;padding:60px 24px 46px;
+  color:rgba(255,255,255,.45);font-size:.87rem;line-height:1.9;
+  border-top:1px solid rgba(255,255,255,.07);
+}
+footer a{color:var(--pink);text-decoration:none}
+
+/* lightbox */
+#lb{
+  position:fixed;inset:0;z-index:9998;background:rgba(6,0,12,.95);
+  display:none;align-items:center;justify-content:center;padding:34px;
+  backdrop-filter:blur(9px);
+}
+#lb.on{display:flex}
+#lb img{max-width:92vw;max-height:88vh;border-radius:18px;
+  box-shadow:0 30px 90px rgba(0,0,0,.7);animation:pop .35s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes pop{from{transform:scale(.88);opacity:0}to{transform:none;opacity:1}}
+#lb .kapat{
+  position:absolute;top:22px;right:26px;width:48px;height:48px;border-radius:50%;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.24);
+  color:#fff;font-size:1.5rem;cursor:none;display:grid;place-items:center;
+}
+#lb .kapat:hover{background:rgba(255,107,157,.28)}
+#lb .cap{
+  position:absolute;bottom:26px;left:50%;transform:translateX(-50%);
+  color:var(--muted);font-size:.95rem;letter-spacing:1px;text-align:center;
+}
+
+@media(max-width:640px){
+  .sayac{gap:10px}
+  .sb{min-width:84px;padding:16px 14px}
+  .sb b{font-size:1.9rem}
+  section{padding:62px 0}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+<div class="confetti" id="confetti"></div>
+<div class="baloons" id="baloons"></div>
+
+<div class="cursor-dot" id="cd"></div>
+<div class="cursor-ring" id="cr"></div>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <span class="badge">🎂 29 Kasım · Doğum Günü</span>
+  <h1>Sahra İnamlık</h1>
+  <p class="sub">Milli Dansçı · Avrupa Şampiyonu · Dünya Şampiyonu</p>
+  <div class="date">
+    <span></span><b>29</b><span></span>
+  </div>
+  <p class="sub" style="font-size:clamp(.95rem,2.2vw,1.1rem);margin-top:-6px">
+    Doğum günün kutlu olsun! 🎉
+  </p>
+  <a class="cta" href="#tebrikler">💌 Tebrikler</a>
+  <div class="scroll">Aşağı kaydır ↓</div>
+</header>
+
+<!-- ===== SAYAC ===== -->
+<section style="padding-top:56px">
+  <div class="wrap">
+    <div class="sayac" id="sayac"></div>
+  </div>
+</section>
+
+<!-- ===== FOTOGRAFLAR ===== -->
+<section id="foto">
+  <div class="wrap">
+    <h2 class="stit">Sahra'nın Dünyası</h2>
+    <p class="ssub">
+      Sahra, Bornova'dan çıkan bir milli sporcu. Avrupa ve dünya sahnelerinde
+      dans etti, ülkesini temsil etti. İşte hikâyesinden kareler.
+    </p>
+    <div class="fotos" id="fotos"></div>
+  </div>
+</section>
+
+<!-- ===== MESAJ ===== -->
+<section id="tebrikler">
+  <div class="wrap">
+    <h2 class="stit">Doğum Günün Kutlu Olsun</h2>
+    <p class="ssub">Bir dansçı için sahne, sadece bir yer değil — kimliğin kendisi.</p>
+    <div class="mesaj">
+      <p>
+        Merhaba Sahra! 🎂
+      </p>
+      <p>
+        <em>29 Kasım</em> senin doğum günün. On yaşındasın ve bu yaşta
+        çok fazla şey başarmışsın — <strong>dünya şampiyonu</strong>,
+        <strong>Avrupa şampiyonu</strong> olmak, milyonlarca izleyici
+        önünde dans etmek, ülkeni temsil etmek... Bunlar kolay kazanılmış şeyler değil.
+      </p>
+      <p>
+        Seni en çok etkileyen şey şu oldu: <strong>8 yaşında Tip 1 diyabet
+        tanısı aldın</strong> — ve dans etmeyi bırakmadın. Her sahne çıkışında
+        insulin pompasını kontrol ettin, ölçümlerini yaptın ve <em>aynı
+        coşkuyla dans ettin</em>. Bu sadece disiplin değil; bu, karakter.
+      </p>
+      <p>
+        Doğum günün kutlu olsun. Sahne senin için her zaman açık olsun. 💃✨
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ROZETLER ===== -->
+<section>
+  <div class="wrap">
+    <h2 class="stit">Neden Özel?</h2>
+    <p class="ssub">Sahra'nın hikâyesi birkaç cümleye sığmıyor — ama şu dört başlıkta özetlenebilir.</p>
+    <div class="rozetler">
+      <div class="rozet">
+        <div class="ico">🥇</div>
+        <b>Avrupa Şampiyonu</b>
+        <small>3 Nisan 2026, Selanik — WDSF European Championship</small>
+      </div>
+      <div class="rozet">
+        <div class="ico">🌍</div>
+        <b>Dünya Şampiyonu</b>
+        <small>2024 İspanya — WDSF World Championship</small>
+      </div>
+      <div class="rozet">
+        <div class="ico">💉</div>
+        <b>Diyabetle Dans</b>
+        <small>8 yaşında Tip 1 diyabet — sahne hiçbir zaman eksilmedi</small>
+      </div>
+      <div class="rozet">
+        <div class="ico">👨‍👩‍👧</div>
+        <b>Dans Ailesi</b>
+        <small>Anne Gaye, abla Azra İnamlık — evde de sahne</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TEŞEKKÜR ===== -->
+<section>
+  <div class="wrap">
+    <h2 class="stit">Sahne Arkasındakiler</h2>
+    <p class="ssub">Sahra'yı sahneye çıkaranlar.</p>
+    <div class="tesek">
+      <div class="tk">
+        <h4>👩 Anne — Gaye İnamlık</h4>
+        <p>İlk dans adımlarını birlikte attılar. Sahranın dansa yolculuğu evde başladı.</p>
+      </div>
+      <div class="tk">
+        <h4>👧 Ablа — Azra İnamlık</h4>
+        <p>Kendisi de dansçı. Kardeşinin önünde hep bir ilham kaynağı oldu.</p>
+      </div>
+      <div class="tk">
+        <h4>🩺 Ailesi ve Doktorları</h4>
+        <p>Diyabetle dans etmeyi mümkün kılan sağlık desteği — sahnedeki güvenliğin temeli.</p>
+      </div>
+      <div class="tk">
+        <h4>🎓 Antrenörleri ve Danışmanları</h4>
+        <p>Yarışma hazırlığı, teknik gelişim ve sahne disiplini için çalışılan ekip.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>🎂 <strong>Sahra İnamlık</strong> — Doğum Günün Kutlu Olsun · 29 Kasım</p>
+  <p>
+    Profil sayfası:
+    <a href="./index.html">Sahra İnamlık — Milli Dansçı</a>
+  </p>
+  <p style="opacity:.6;margin-top:10px">
+    Fotoğraflar: Gündeme Bakış · Ege Telgraf · Egeyön Haber · WDSF / YouTube
+  </p>
+</footer>
+
+<div id="lb">
+  <button class="kapat" id="lbKapat">✕</button>
+  <img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+  <div class="cap" id="lbCap"></div>
+</div>
+
+<script>
+/* ---------- YILDIZLAR ---------- */
+(function(){
+  const c=document.getElementById('stars'),x=c.getContext('2d');
+  let W,H,st=[];
+  function boyut(){W=c.width=innerWidth;H=c.height=innerHeight;
+    st=[];for(let i=0;i<110;i++)st.push({x:Math.random()*W,y:Math.random()*H,
+      r:Math.random()*1.5+.3,v:Math.random()*.35+.08,a:Math.random()*.6+.3});}
+  function ciz(){x.clearRect(0,0,W,H);
+    for(const s of st){s.y+=s.v;if(s.y>H){s.y=-2;s.x=Math.random()*W;}
+      x.beginPath();x.arc(s.x,s.y,s.r,0,6.3);
+      x.fillStyle='rgba(255,255,255,'+s.a+')';x.fill();}
+    requestAnimationFrame(ciz);}
+  addEventListener('resize',boyut);boyut();ciz();
+})();
+
+/* ---------- KONFETI ---------- */
+(function(){
+  const c=document.getElementById('confetti');
+  const renk=['#ff6b9d','#ffd166','#a76eff','#50dcff','#ff8fab','#fff'];
+  for(let i=0;i<64;i++){
+    const e=document.createElement('i');
+    e.style.left=Math.random()*100+'%';
+    e.style.background=renk[Math.floor(Math.random()*renk.length)];
+    e.style.animationDuration=(4.5+Math.random()*5)+'s';
+    e.style.animationDelay=(-Math.random()*8)+'s';
+    e.style.opacity=.35+Math.random()*.55;
+    c.appendChild(e);
+  }
+})();
+
+/* ---------- BALON ---------- */
+(function(){
+  const c=document.getElementById('baloons');
+  const renk=['rgba(255,107,157,.55)','rgba(255,209,102,.5)','rgba(167,110,255,.55)','rgba(80,220,255,.45)'];
+  for(let i=0;i<16;i++){
+    const e=document.createElement('div');e.className='balloon';
+    e.style.left=(Math.random()*96+2)+'%';
+    e.style.background=renk[i%renk.length];
+    e.style.animationDuration=(16+Math.random()*16)+'s';
+    e.style.animationDelay=(-Math.random()*24)+'s';
+    c.appendChild(e);
+  }
+})();
+
+/* ---------- SAYAC ---------- */
+(function(){
+  const kutu=document.getElementById('sayac');
+  const hedef=new Date();hedef.setMonth(10,29); // 29 Kasim
+  const simdi=new Date();
+  let yil=hedef.getFullYear();
+  if(simdi>hedef) yil++;
+  hedef.setFullYear(yil);
+  const fark=hedef-simdi;
+  const g=Math.max(0,Math.floor(fark/86400000));
+  const saat=Math.floor(fark%86400000/3600000);
+  const dak=Math.floor(fark%3600000/60000);
+  const sn=Math.floor(fark%60000/1000);
+  kutu.innerHTML=
+    '<div class="sb"><b>'+g+'</b><small>Gün</small></div>'+
+    '<div class="sb"><b>'+saat+'</b><small>Saat</small></div>'+
+    '<div class="sb"><b>'+dak+'</b><small>Dakika</small></div>'+
+    '<div class="sb"><b>'+sn+'</b><small>Saniye</small></div>';
+})();
+
+/* ---------- FOTOGRAFLAR ---------- */
+(function(){
+  const F=[
+    ['photos/dans-1.jpg','Dans — Gündeme Bakış'],
+    ['photos/sampiyon.jpg','Şampiyonluk'],
+    ['photos/dans-2.jpg','Sahne'],
+    ['photos/dans-3.jpg','Latin Dans — Ege Telgraf'],
+    ['photos/diyabet.jpg','Diyabet farkındalık etkinliği'],
+    ['photos/hikaye.jpg','Sahra\'nın hikâyesi'],
+    ['photos/ytgoc-2024.jpg','WDSF GOC 2024 — Dünya'],
+    ['photos/ytgoc-2025.jpg','GOC 2025 — Samba Final']
+  ];
+  const g=document.getElementById('fotos');
+  g.innerHTML=F.map(function(f,i){
+    // ilk 4 gorsel hemen yuklensin (lazy-load kirik gorunmesin)
+    const ld = i<4 ? 'loading="eager"' : 'loading="lazy"';
+    return '<figure class="foto" data-i="'+i+'"><img src="'+f[0]+'" alt="'+f[1]+'" '+ld+' decoding="async"><figcaption>'+f[1]+'</figcaption></figure>';
+  }).join('');
+  g.querySelectorAll('.foto').forEach(function(el){
+    el.addEventListener('click',function(){openLB(+el.dataset.i);});
+  });
+  window.__F=F;
+})();
+
+/* ---------- LIGHTBOX ---------- */
+const lb=document.getElementById('lb'),lbI=document.getElementById('lbImg'),lbC=document.getElementById('lbCap');
+function openLB(i){
+  const f=window.__F[i];lbI.src=f[0];lbC.textContent=f[1];lb.classList.add('on');
+}
+function closeLB(){lb.classList.remove('on');}
+document.getElementById('lbKapat').addEventListener('click',closeLB);
+lb.addEventListener('click',function(e){if(e.target===lb)closeLB();});
+addEventListener('keydown',function(e){if(e.key==='Escape')closeLB();});
+
+/* ---------- CURSOR ---------- */
+(function(){
+  const d=document.getElementById('cd'),r=document.getElementById('cr');
+  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my;
+  addEventListener('mousemove',function(e){
+    mx=e.clientX;my=e.clientY;
+    d.style.left=mx+'px';d.style.top=my+'px';
+    r.classList.toggle('hot',e.target.tagName==='A'||e.target.tagName==='BUTTON'||e.target.classList.contains('foto'));
+  });
+  (function lp(){
+    rx+=(mx-rx)*.16;ry+=(my-ry)*.16;
+    r.style.left=rx+'px';r.style.top=ry+'px';
+    requestAnimationFrame(lp);
+  })();
+})();
+
+/* ---------- SMOOTH SCROLL ---------- */
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
