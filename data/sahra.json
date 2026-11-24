@@ -1,0 +1,176 @@
+{
+  "ad": "Sahra İnamlık",
+  "dogumTarihi": "29 Kasım",
+  "yas": 12,
+  "dogumYeri": "İzmir (Bornova)",
+  "aile": {
+    "anne": "Gaye İnamlık (36)",
+    "baba": "Sertaç İnamlık (38)",
+    "abla": "Azra İnamlık — 2024 Dünya Koreografi Latin Takım Şampiyonu, milli dansçı, rol modeli",
+    "dogumSirasi": "3 çocuğun ortancası"
+  },
+  "saglik": {
+    "tanı": "Tip 1 Diyabet — 8 yaşında (2014 civarı)",
+    "komaRiski": "Şeker 600'e çıktı, komaya girmeden hastaneye yatırıldı",
+    "teknoloji": "Kolunda CGM sensör + vücudunda insülin pompası (yapay zekâ destekli)",
+    "yönetim": "Kendisi karbonhidrat sayımı ve insülin dozunu planlıyor; antrenman öncesi şekere göre takviye planlıyor"
+  },
+  "dans": {
+    "branş": "Latin (Solo + Koreografi Takım)",
+    "kulup": "Dans Ege Spor Kulübü — İzmir",
+    "antrenor": "Arman Esem",
+    "baslangic": "6-7 yaşında temel dans eğitimi",
+    "gecis": "Abla Azra'nın Yunanistan yarışmasını izledikten sonra Latin dansına yönelme",
+    "haftalikAntrenman": "Haftanın 6 günü, günde en az 3 saat"
+  },
+  "resmiBasarilar": [
+    {
+      "yil": 2026,
+      "tarih": "3 Nisan 2026",
+      "etkinlik": "WDSF Koreografi Latin Takım Avrupa Şampiyonası",
+      "kategori": "Yıldızlar Koreografi Latin Küçük Takım",
+      "sonuc": "1. LİK (AVRUPA ŞAMPİYONU)",
+      "detay": "10 ülke, 15 takım. 'Aegean Legends Kafkas' koreografisiyle birincilik.",
+      "kaynak": "DHA / Gündeme Bakış",
+      "kaynakUrl": "https://www.gundemebakis.com/diyabetli-sahradan-avrupada-cifte-sampiyonluk"
+    },
+    {
+      "yil": 2026,
+      "tarih": "4 Nisan 2026",
+      "etkinlik": "WDSF Open Solo (Selanik, Yunanistan)",
+      "kategori": "Junior 1 Solo",
+      "sonuc": "1. LİK (AVRUPA ŞAMPİYONU) — ÇİFTE ŞAMPİYONLUK",
+      "detay": "17 ülke, 74 sporcu. 3 tur, 4 dakikalık koreografi.",
+      "kaynak": "DHA / Gündeme Bakış",
+      "kaynakUrl": "https://www.gundemebakis.com/diyabetli-sahradan-avrupada-cifte-sampiyonluk"
+    },
+    {
+      "yil": 2026,
+      "tarih": "13-15 Şubat 2026",
+      "etkinlik": "2026 TDSF Dans Sporu Türkiye Şampiyonası — 3. Etap",
+      "kategori": "Solo Yıldızlar 1 C Latin",
+      "sonuc": "1. LİK (TÜRKİYE ŞAMPİYONU)",
+      "detay": "Resmî federasyon sonuç belgesi: Item 135 — 1. turda 53 puanla birinci, finalde birinci.",
+      "kaynak": "TDSF resmî sonuç PDF'i (2026 TDSF Dans Sporu Türkiye Şampiyonası)",
+      "kaynakUrl": "https://tdsf.org.tr/public/yarisma-sonuclari/2026/DANSSPORU_3_ETAP_TS/Solo_Ksy_3_Etap.pdf",
+      "kanitTipi": "resmi PDF"
+    },
+    {
+      "yil": 2026,
+      "tarih": "16-17 Mayıs 2026",
+      "etkinlik": "2026 TDSF Dans Sporu Türkiye Şampiyonası — 4. Etap",
+      "kategori": "Solo Latin Yıldızlar 1",
+      "sonuc": "2. LİK — FİNALDE",
+      "detay": "Resmî federasyon sonuç belgesi: Item 225/250/255/270/335. 1. tur 7. (51 puan), 2. tur 1. (52), 3. tur 2. (62), 4. tur 1. (64), final 2. sıra.",
+      "kaynak": "TDSF resmî sonuç PDF'i (2026 TDSF Dans Sporu Türkiye Şampiyonası)",
+      "kaynakUrl": "https://tdsf.org.tr/public/yarisma-sonuclari/2026/DANSSPORU_4_ETAP_TS_16-17_05_2026/Ts_Solo_Latin.pdf",
+      "kanitTipi": "resmi PDF"
+    }
+  ],
+  "medyaVeEtkinlik": [
+    {
+      "yil": 2026,
+      "etkinlik": "Bornova Belediyesi Diyabet Günü Söyleşisi",
+      "yer": "Uğur Mumcu Kültür ve Sanat Merkezi, Bornova",
+      "detay": "Medicana Hastanesi iş birliğiyle 'Sağlıklı Bir Gelecek İçin Farkında Ol!' söyleşisi. Uzm. Dr. Aysel Mammadyarzada ile konuşmacı.",
+      "alinti": "\"Kolumda sensör, kalbimde bir hayal var. Çünkü inanıyorum ki hayaller engel tanımaz.\"",
+      "kaynak": "Bornova Belediyesi / Gündeme Bakış / Egeyön Haber"
+    }
+  ],
+  "alintilar": [
+    {
+      "metin": "Dans benim için sadece eyleme geçmek değil, bir tutku ve bir güç. Kötü hissettiğimde de mutlu olduğumda da dans ediyorum.",
+      "kaynak": "DHA — Avrupa şampiyonluğu sonrası"
+    },
+    {
+      "metin": "Dans olmasaydı benim için hayat daha zor olurdu. Çünkü dans aslında organlarımı sağlıklı tutan bir parça.",
+      "kaynak": "DHA — Diyabetle dans ederek"
+    },
+    {
+      "metin": "Kolumda sensör, kalbimde bir hayal var. Çünkü hayaller engel tanımaz.",
+      "kaynak": "Bornova Diyabet Günü söyleşisi"
+    },
+    {
+      "metin": "Annem beni Latin dansına yazdırır mısın? Ben şampiyon olmak istiyorum.",
+      "kaynak": "Anne Gaye İnamlık — 8 yaşındaki haliyle"
+    }
+  ],
+  "aileAlintilari": [
+    {
+      "metin": "Bilinçsiz bir şekilde hastaneye gittik ama Sahra yürüyerek girdi ve yürüyerek çıktı. Gücünü bize bir kere daha gösterdi.",
+      "kaynak": "Gaye İnamlık (anne)"
+    },
+    {
+      "metin": "Sensör bir lüks değil, ihtiyaçtır. Sahra'nın başarısı bununla mümkün oldu.",
+      "kaynak": "Gaye İnamlık (anne)"
+    },
+    {
+      "metin": "O nereye, ben oraya. Sahnede şekeri düşebilir; ani düşüşler çok tehlikeli olabilir.",
+      "kaynak": "Gaye İnamlık (anne)"
+    },
+    {
+      "metin": "Onun gibilere bence örnek teşkil ediyor.",
+      "kaynak": "Azra İnamlık (abla)"
+    }
+  ],
+  "antrenorAlintisi": {
+    "metin": "Sahra şu an Türkiye'de koreografi Latin takımlarımızda takım dansçımız ama aynı zamanda solo Latin branşında da bireysel olarak yarışıyor. Hedefimiz Avrupa Şampiyonası'nda güzel bir dereceyi Türkiye'ye getirmek.",
+    "kaynak": "Arman Esem (antrenör)"
+  },
+  "istatistikler": [
+    { "deger": "8", "birim": "yaş", "etiket": "Tip 1 diyabet tanısı" },
+    { "deger": "2", "birim": "kupa", "etiket": "Avrupa Şampiyonluğu (çifte)" },
+    { "deger": "2", "birim": "sıra", "etiket": "Türkiye Şampiyonası (1. + 2.)" },
+    { "deger": "17", "birim": "ülke", "etiket": "Selanik Solo finali" }
+  ],
+  "videolar": [
+    {
+      "id": "pyNPTz5SgGc",
+      "baslik": "15. BÖLÜM — SAHRA İNAMLIK: DANSTA DÜNYA BİRİNCİSİ",
+      "kanal": "Sahra (dizi bölümü)",
+      "tur": "Tanıtım"
+    },
+    {
+      "id": "mkH5SsadWTU",
+      "baslik": "Sahra İnamlık: Dans ile Diyabete Meydan Okuyan Genç Sporcu",
+      "kanal": "Belgesel",
+      "tur": "Belgesel"
+    },
+    {
+      "id": "69xX26tDSEs",
+      "baslik": "Diyabetinin Ritmiyle Dansının Ritmini Birleştiren Milli Dansçı Sahra'nın hikayesi",
+      "kanal": "Belgesel",
+      "tur": "Belgesel"
+    },
+    {
+      "id": "cFRyrWb2JQg",
+      "baslik": "Bornova'da Diyabet Farkındalığı: Milli Dansçı Sahra İnamlık'tan İlham Veren Mesaj",
+      "kanal": "Belgesel",
+      "tur": "Röportaj"
+    },
+    {
+      "id": "GKoj707pXcI",
+      "baslik": "Sahra İnamlık Diyabet Hastalığıyla Nasıl Mücadele Ediyor?",
+      "kanal": "Çağla ile Yeni Bir Gün",
+      "tur": "Röportaj"
+    },
+    {
+      "id": "V8Jk9Qk7uIk",
+      "baslik": "Sahra Inamlik (TUR) Solo Juvenile 2 Latin [Chacha] GOC 2024 / Semi finale",
+      "kanal": "WDSF / GOC",
+      "tur": "Yarışma"
+    },
+    {
+      "id": "PijFVp3r_Hs",
+      "baslik": "General Look Solo Junior 2 Latin [Samba] GOC 2025 — Sahra Inamlik",
+      "kanal": "WDSF / GOC",
+      "tur": "Yarışma"
+    },
+    {
+      "id": "nOs0rCiBprA",
+      "baslik": "İzmirli dansçılar dünya şampiyonu oldu",
+      "kanal": "Yerel haber",
+      "tur": "Haber"
+    }
+  ]
+}
