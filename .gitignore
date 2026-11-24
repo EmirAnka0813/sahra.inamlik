@@ -1,5 +1,7 @@
 shots/
+shots_*.png
 .netlify/
 *.py
 _l.html
 _live.html
+_n.html
