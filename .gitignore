@@ -2,6 +2,7 @@ shots/
 shots_*.png
 .netlify/
 *.py
+__pycache__/
 _l.html
 _live.html
 _n.html
