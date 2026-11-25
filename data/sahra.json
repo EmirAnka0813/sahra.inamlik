@@ -118,10 +118,26 @@
     "kaynak": "Arman Esem (antrenör)"
   },
   "istatistikler": [
-    { "deger": "8", "birim": "yaş", "etiket": "Tip 1 diyabet tanısı" },
-    { "deger": "2", "birim": "kupa", "etiket": "Avrupa Şampiyonluğu (çifte)" },
-    { "deger": "2", "birim": "sıra", "etiket": "Türkiye Şampiyonası (1. + 2.)" },
-    { "deger": "17", "birim": "ülke", "etiket": "Selanik Solo finali" }
+    {
+      "deger": "8",
+      "birim": "yaş",
+      "etiket": "Tip 1 diyabet tanısı"
+    },
+    {
+      "deger": "2",
+      "birim": "kupa",
+      "etiket": "Avrupa Şampiyonluğu (çifte)"
+    },
+    {
+      "deger": "2",
+      "birim": "sıra",
+      "etiket": "Türkiye Şampiyonası (1. + 2.)"
+    },
+    {
+      "deger": "17",
+      "birim": "ülke",
+      "etiket": "Selanik Solo finali"
+    }
   ],
   "videolar": [
     {
@@ -153,24 +169,8 @@
       "baslik": "Sahra İnamlık Diyabet Hastalığıyla Nasıl Mücadele Ediyor?",
       "kanal": "Çağla ile Yeni Bir Gün",
       "tur": "Röportaj"
-    },
-    {
-      "id": "V8Jk9Qk7uIk",
-      "baslik": "Sahra Inamlik (TUR) Solo Juvenile 2 Latin [Chacha] GOC 2024 / Semi finale",
-      "kanal": "WDSF / GOC",
-      "tur": "Yarışma"
-    },
-    {
-      "id": "PijFVp3r_Hs",
-      "baslik": "General Look Solo Junior 2 Latin [Samba] GOC 2025 — Sahra Inamlik",
-      "kanal": "WDSF / GOC",
-      "tur": "Yarışma"
-    },
-    {
-      "id": "nOs0rCiBprA",
-      "baslik": "İzmirli dansçılar dünya şampiyonu oldu",
-      "kanal": "Yerel haber",
-      "tur": "Haber"
     }
-  ]
+  ],
+  "fotoSayisi": 22,
+  "videoSayisi": 5
 }

@@ -10,7 +10,9 @@
     "portre": true,
     "cos": 0.7779,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.70, %0.9)"
   },
   {
     "ad": "portre-2",
@@ -23,7 +25,9 @@
     "portre": true,
     "cos": 0.7665,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.74, %1.0)"
   },
   {
     "ad": "portre-3",
@@ -36,7 +40,9 @@
     "portre": true,
     "cos": 0.7583,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.74, %1.8)"
   },
   {
     "ad": "portre-4",
@@ -49,7 +55,9 @@
     "portre": true,
     "cos": 0.7146,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "1 yuzlu kisi karesi, baskın yuz Sahra (cos 0.73, %1.3)"
   },
   {
     "ad": "portre-5",
@@ -62,7 +70,9 @@
     "portre": true,
     "cos": 0.7372,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.73, %1.0)"
   },
   {
     "ad": "portre-6",
@@ -75,20 +85,9 @@
     "portre": true,
     "cos": 0.6937,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
-  },
-  {
-    "ad": "portre-7",
-    "aciklama": "Sahra İnamlık — portre",
-    "kart": "photos/portre-7-800.webp",
-    "buyuk": "photos/portre-7-1600.webp",
-    "orijinal": "photos/portre-7.jpg",
-    "w": 1280,
-    "h": 1735,
-    "portre": true,
-    "cos": 0.7487,
-    "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "1 yuzlu kisi karesi, baskın yuz Sahra (cos 0.69, %0.8)"
   },
   {
     "ad": "portre-8",
@@ -101,7 +100,9 @@
     "portre": true,
     "cos": 0.7632,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.64, %0.8)"
   },
   {
     "ad": "portre-9",
@@ -114,7 +115,9 @@
     "portre": true,
     "cos": 0.7191,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.66, %1.5)"
   },
   {
     "ad": "sahne-genis-1",
@@ -127,7 +130,9 @@
     "portre": false,
     "cos": 1.0,
     "kaynak": "gundemebakis-ilham-hikaye",
-    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi"
+    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.76, %1.3)"
   },
   {
     "ad": "sahne-genis-2",
@@ -140,59 +145,9 @@
     "portre": false,
     "cos": 1.0,
     "kaynak": "gundemebakis-ilham-hikaye",
-    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi"
-  },
-  {
-    "ad": "sampiyon-genis",
-    "aciklama": "Şampiyonluk",
-    "kart": "photos/sampiyon-genis-800.webp",
-    "buyuk": "photos/sampiyon-genis-1600.webp",
-    "orijinal": "photos/sampiyon-genis.jpg",
-    "w": 2170,
-    "h": 725,
-    "portre": false,
-    "cos": 0.873,
-    "kaynak": "egeyonhaber-avrupa-sampiyonu",
-    "kaynak_url": "https://www.egeyonhaber.com/izmir/avrupa-sampiyonu-sahra-inamlik-bornovada-ilham-verdi/"
-  },
-  {
-    "ad": "diyabet-farkindalik-1",
-    "aciklama": "Diyabet farkındalık",
-    "kart": "photos/diyabet-farkindalik-1-800.webp",
-    "buyuk": "photos/diyabet-farkindalik-1-1600.webp",
-    "orijinal": "photos/diyabet-farkindalik-1.jpg",
-    "w": 1280,
-    "h": 720,
-    "portre": false,
-    "cos": 1.0,
-    "kaynak": "egetelgraf-hikaye",
-    "kaynak_url": "https://egetelgraf.com/sahradan-ilham-veren-basari-hikayesi-diyabetle-hayallerini-dans-ederek-gerceklestiriyor"
-  },
-  {
-    "ad": "diyabet-farkindalik-2",
-    "aciklama": "Diyabet farkındalık",
-    "kart": "photos/diyabet-farkindalik-2-800.webp",
-    "buyuk": "photos/diyabet-farkindalik-2-1600.webp",
-    "orijinal": "photos/diyabet-farkindalik-2.jpg",
-    "w": 1280,
-    "h": 720,
-    "portre": false,
-    "cos": 1.0,
-    "kaynak": "egetelgraf-hikaye",
-    "kaynak_url": "https://egetelgraf.com/sahradan-ilham-veren-basari-hikayesi-diyabetle-hayallerini-dans-ederek-gerceklestiriyor"
-  },
-  {
-    "ad": "hikaye-1",
-    "aciklama": "Hikâye",
-    "kart": "photos/hikaye-1-800.webp",
-    "buyuk": "photos/hikaye-1-1600.webp",
-    "orijinal": "photos/hikaye-1.jpg",
-    "w": 1280,
-    "h": 720,
-    "portre": false,
-    "cos": 1.0,
-    "kaynak": "gundemebakis-ilham-hikaye",
-    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi"
+    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.88, %2.5)"
   },
   {
     "ad": "bornova-bulusma",
@@ -205,7 +160,9 @@
     "portre": false,
     "cos": 1.0,
     "kaynak": "egetelgraf-hikaye",
-    "kaynak_url": "https://egetelgraf.com/sahradan-ilham-veren-basari-hikayesi-diyabetle-hayallerini-dans-ederek-gerceklestiriyor"
+    "kaynak_url": "https://egetelgraf.com/sahradan-ilham-veren-basari-hikayesi-diyabetle-hayallerini-dans-ederek-gerceklestiriyor",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "1 yuzlu kisi karesi, baskın yuz Sahra (cos 0.99, %2.5)"
   },
   {
     "ad": "bornova-etkinlik",
@@ -218,7 +175,9 @@
     "portre": false,
     "cos": 1.0,
     "kaynak": "gundemebakis-bornova-bulusma",
-    "kaynak_url": "https://www.gundemebakis.com/bornovada-diyabet-farkindaligi-icin-anlamli-bulusma"
+    "kaynak_url": "https://www.gundemebakis.com/bornovada-diyabet-farkindaligi-icin-anlamli-bulusma",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.62, %0.2)"
   },
   {
     "ad": "egetelgraf-mesaj",
@@ -231,7 +190,9 @@
     "portre": false,
     "cos": 0.8695,
     "kaynak": "egetelgraf-sampiyon-mesaj",
-    "kaynak_url": "https://egetelgraf.com/bornovada-sampiyon-danscidan-diyabet-mesaji-kolumda-sensor-kalbimde-bir-hayal-var"
+    "kaynak_url": "https://egetelgraf.com/bornovada-sampiyon-danscidan-diyabet-mesaji-kolumda-sensor-kalbimde-bir-hayal-var",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "31 yuzlu grup, Sahra one cikan (%5.8, cos 0.66)"
   },
   {
     "ad": "sahne-1",
@@ -244,20 +205,9 @@
     "portre": false,
     "cos": 0.8897,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
-  },
-  {
-    "ad": "sahne-2",
-    "aciklama": "Sahne",
-    "kart": "photos/sahne-2-800.webp",
-    "buyuk": "photos/sahne-2-1600.webp",
-    "orijinal": "photos/sahne-2.jpg",
-    "w": 1280,
-    "h": 858,
-    "portre": false,
-    "cos": 0.8326,
-    "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.70, %1.1)"
   },
   {
     "ad": "sahne-3",
@@ -270,20 +220,9 @@
     "portre": false,
     "cos": 0.8068,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
-  },
-  {
-    "ad": "sahne-4",
-    "aciklama": "Sahne",
-    "kart": "photos/sahne-4-800.webp",
-    "buyuk": "photos/sahne-4-1600.webp",
-    "orijinal": "photos/sahne-4.jpg",
-    "w": 1280,
-    "h": 947,
-    "portre": false,
-    "cos": 0.7838,
-    "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.80, %0.5)"
   },
   {
     "ad": "sahne-5",
@@ -296,33 +235,9 @@
     "portre": false,
     "cos": 0.785,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
-  },
-  {
-    "ad": "gundem-1",
-    "aciklama": "Gündeme Bakış",
-    "kart": "photos/gundem-1-800.webp",
-    "buyuk": "photos/gundem-1-1600.webp",
-    "orijinal": "photos/gundem-1.jpg",
-    "w": 860,
-    "h": 504,
-    "portre": false,
-    "cos": 0.9436,
-    "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
-  },
-  {
-    "ad": "gundem-2",
-    "aciklama": "Gündeme Bakış",
-    "kart": "photos/gundem-2-800.webp",
-    "buyuk": "photos/gundem-2-1600.webp",
-    "orijinal": "photos/gundem-2.jpg",
-    "w": 860,
-    "h": 504,
-    "portre": false,
-    "cos": 0.9518,
-    "kaynak": "gundemebakis-ilham-hikaye",
-    "kaynak_url": "https://www.gundemebakis.com/sekeri-600e-cikti-ama-vazgecmedi-sahranin-ilham-veren-hikayesi"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.74, %1.2)"
   },
   {
     "ad": "egeyon-1",
@@ -335,20 +250,9 @@
     "portre": false,
     "cos": 0.8304,
     "kaynak": "egeyonhaber-avrupa-sampiyonu",
-    "kaynak_url": "https://www.egeyonhaber.com/izmir/avrupa-sampiyonu-sahra-inamlik-bornovada-ilham-verdi/"
-  },
-  {
-    "ad": "gundem-3",
-    "aciklama": "Gündeme Bakış",
-    "kart": "photos/gundem-3-800.webp",
-    "buyuk": "photos/gundem-3-1600.webp",
-    "orijinal": "photos/gundem-3.jpg",
-    "w": 860,
-    "h": 504,
-    "portre": false,
-    "cos": 0.8543,
-    "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
+    "kaynak_url": "https://www.egeyonhaber.com/izmir/avrupa-sampiyonu-sahra-inamlik-bornovada-ilham-verdi/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "3 yuzlu kisi karesi, baskın yuz Sahra (cos 0.74, %3.6)"
   },
   {
     "ad": "gundem-4",
@@ -361,7 +265,9 @@
     "portre": false,
     "cos": 0.8611,
     "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
+    "kaynak_url": "https://www.gundemebakis.com/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.67, %1.8)"
   },
   {
     "ad": "foto-113",
@@ -374,7 +280,9 @@
     "portre": false,
     "cos": 0.7857,
     "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
+    "kaynak_url": "https://www.gundemebakis.com/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "2 yuzlu kisi karesi, baskın yuz Sahra (cos 0.64, %4.1)"
   },
   {
     "ad": "foto-115",
@@ -387,7 +295,9 @@
     "portre": false,
     "cos": 0.7459,
     "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
+    "kaynak_url": "https://www.gundemebakis.com/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "1 yuzlu kisi karesi, baskın yuz Sahra (cos 0.72, %4.4)"
   },
   {
     "ad": "foto-114",
@@ -400,7 +310,9 @@
     "portre": false,
     "cos": 0.7287,
     "kaynak": "gundemebakis-ana",
-    "kaynak_url": "https://www.gundemebakis.com/"
+    "kaynak_url": "https://www.gundemebakis.com/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "10 yuzlu grup, Sahra one cikan (%3.4, cos 0.76)"
   },
   {
     "ad": "foto-091",
@@ -413,6 +325,8 @@
     "portre": false,
     "cos": 0.5479,
     "kaynak": "kanal3-bireysel-sampiyonluk",
-    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/"
+    "kaynak_url": "https://www.kanal3.com.tr/takim-halinde-dunya-sampiyonu-olan-danscilar-bu-kez-bireysel-sampiyonluk-pesinde/",
+    "alaka": "ALAKALI",
+    "alakaGerekce": "1 yuzlu kisi karesi, baskın yuz Sahra (cos 0.62, %3.5)"
   }
 ]

@@ -649,8 +649,8 @@ footer p{color:var(--tx-2);font-size:13.6px;max-width:400px}
           Başlangıç kategorisinden Gençler kategorisine yükselen bir ivme.
         </div>
         <div class="tl-src">
-          <a href="https://www.youtube.com/watch?v=V8Jk9Qk7uIk" target="_blank" rel="noopener">GOC 2024 kaydı ↗</a>
-          <a href="https://www.youtube.com/watch?v=PijFVp3r_Hs" target="_blank" rel="noopener">GOC 2025 kaydı ↗</a>
+          <span>WDSF / GOC 2024 · 2025</span>
+          <a href="https://www.wdsf.com/" target="_blank" rel="noopener">WDSF resmî site ↗</a>
         </div>
       </div>
     </div>
@@ -701,7 +701,7 @@ footer p{color:var(--tx-2);font-size:13.6px;max-width:400px}
     <div class="sec-num">04 — Galeri</div>
     <h2>Basın <em>görselleri</em></h2>
     <p class="lede">
-      Haber kuruluşlarının yayımladığı <b>32 orijinal fotoğraf</b>. Hepsi
+      Haber kuruluşlarının yayımladığı <b>22 orijinal fotoğraf</b>. Hepsi
       yüz tanıma modeliyle doğrulanmıştır; yüksek çözünürlüklü orijinaller
       lightbox üzerinden indirilebilir.
     </p>
@@ -766,7 +766,7 @@ footer p{color:var(--tx-2);font-size:13.6px;max-width:400px}
       </p>
       <div class="press-btns">
         <a class="dl dl-p" href="photos/portre-1-1600.webp" download>⬇ Ana görsel (WebP)</a>
-        <a class="dl" href="photos/sampiyon-genis-1600.webp" download>⬇ Şampiyonluk karesi</a>
+        <a class="dl" href="photos/sahne-genis-1-1600.webp" download>⬇ Sahne karesi (WebP)</a>
         <a class="dl" href="data/sahra.json" download>⬇ Basın verisi (JSON)</a>
       </div>
     </div>
@@ -784,8 +784,8 @@ footer p{color:var(--tx-2);font-size:13.6px;max-width:400px}
       <div class="spec"><b>Sağlık</b><span>Tip 1 Diyabet (8 yaş)</span></div>
       <div class="spec"><b>Başlıca Unvan</b><span>Avrupa Şampiyonu</span></div>
       <div class="spec"><b>Federasyon</b><span>TDSF · WDSF</span></div>
-      <div class="spec"><b>Fotoğraf</b><span>32 doğrulanmış orijinal</span></div>
-      <div class="spec"><b>Video</b><span>8 yayımlanmış kayıt</span></div>
+      <div class="spec"><b>Fotoğraf</b><span>22 doğrulanmış orijinal</span></div>
+      <div class="spec"><b>Video</b><span>5 yayımlanmış kayıt</span></div>
     </div>
   </div>
 </section>
@@ -903,30 +903,30 @@ const GALERI=[
   {f:"portre-1",c:"Avrupa Şampiyonu — portre",s:"h4"},
   {f:"portre-3",c:"Sahra İnamlık",s:"h4"},
   {f:"portre-6",c:"Sahra İnamlık",s:"h4"},
-  {f:"sampiyon-genis",c:"Avrupa Şampiyonluğu — Selanik 2026",s:"h8"},
+  
   {f:"portre-2",c:"Sahra İnamlık",s:"h3"},
   {f:"portre-4",c:"Sahra İnamlık",s:"h3"},
-  {f:"portre-7",c:"Sahra İnamlık",s:"h3"},
+  
   {f:"portre-9",c:"Sahra İnamlık",s:"h3"},
   {f:"sahne-genis-1",c:"Dans sahnesi",s:"h6"},
   {f:"portre-5",c:"Sahra İnamlık",s:"h4"},
   {f:"portre-8",c:"Sahra İnamlık",s:"h4"},
-  {f:"diyabet-farkindalik-1",c:"Diyabet farkındalığı",s:"h6"},
+  
   {f:"bornova-bulusma",c:"Bornova Diyabet Günü söyleşisi",s:"h6"},
   {f:"egetelgraf-mesaj",c:"Diyabet mesajı",s:"h6"},
-  {f:"hikaye-1",c:"Hikâyenin ardından",s:"h6"},
+  
   {f:"sahne-1",c:"Yarışma sahnesi",s:"h4"},
-  {f:"sahne-2",c:"Yarışma sahnesi",s:"h4"},
+  
   {f:"sahne-3",c:"Yarışma sahnesi",s:"h4"},
   {f:"bornova-etkinlik",c:"Bornova etkinliği",s:"h3"},
-  {f:"gundem-1",c:"Bornova'da şampiyon dansçı",s:"h3"},
-  {f:"gundem-2",c:"Gündemden",s:"h3"},
+  
+  
   {f:"egeyon-1",c:"Bornova'da ilham",s:"h3"},
-  {f:"sahne-4",c:"Yarışma sahnesi",s:"h3"},
+  
   {f:"sahne-5",c:"Yarışma sahnesi",s:"h3"},
-  {f:"gundem-3",c:"Gündemden",s:"h3"},
+  
   {f:"gundem-4",c:"Gündemden",s:"h3"},
-  {f:"diyabet-farkindalik-2",c:"Diyabet farkındalığı",s:"h3"},
+  
   {f:"sahne-genis-2",c:"Dans sahnesi",s:"h6"},
   {f:"foto-113",c:"Sahra İnamlık",s:"h3"},
   {f:"foto-115",c:"Sahra İnamlık",s:"h3"},
@@ -944,13 +944,7 @@ const MEDYA=[
   {id:"cFRyrWb2JQg",k:"Röportaj",t:"Bornova'da Diyabet Farkındalığı — İlham Veren Mesaj",
    d:"Belediye söyleşisindeki konuşması ve salondan gelen tepkiler."},
   {id:"GKoj707pXcI",k:"Röportaj",t:"Sahra İnamlık Diyabet Hastalığıyla Nasıl Mücadele Ediyor?",
-   d:"Günlük yaşamını ve diyabet yönetimini anlattığı program."},
-  {id:"V8Jk9Qk7uIk",k:"Yarışma",t:"Sahra Inamlik (TUR) — Solo Juvenile 2 Latin [Chacha], GOC 2024 Semi finale",
-   d:"WDSF yarışma kaydı — uluslararası platform."},
-  {id:"PijFVp3r_Hs",k:"Yarışma",t:"General Look — Solo Junior 2 Latin [Samba], GOC 2025",
-   d:"WDSF yarışma kaydı — Gençler kategorisi."},
-  {id:"nOs0rCiBprA",k:"Haber",t:"İzmirli dansçılar dünya şampiyonu oldu",
-   d:"İzmirli dansçıların dünya şampiyonluğunu işleyen haber."}
+   d:"Günlük yaşamını ve diyabet yönetimini anlattığı program."}
 ];
 
 const RIBBON=[
