@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Tüm icerik aciktir; ozel bir yasak yok.
+Sitemap: https://emiranka0813.github.io/sahra.inamlik/sitemap.xml

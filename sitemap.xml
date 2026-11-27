@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://emiranka0813.github.io/sahra.inamlik/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://emiranka0813.github.io/sahra.inamlik/photos/portre-1-1600.webp</image:loc>
+      <image:title>Sahra İnamlık — Avrupa Şampiyonu Milli Dansçı</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://emiranka0813.github.io/sahra.inamlik/index-bday.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
