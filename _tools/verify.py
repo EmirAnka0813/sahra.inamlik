@@ -216,6 +216,25 @@ def canli(base):
     anahtar = fetch(f"{base_dir}/emiranka0813.github.io.txt")
     kontrol("IndexNow anahtari yayimlanmis", len(anahtar.strip()) >= 8, anahtar.strip()[:20])
 
+    # IndexNow: URL'ler Bing/Yandex/DDG'ye bildirilsin
+    import json as _json
+    import urllib.request as _req
+    kok = base_dir.rstrip("/") + "/"
+    try:
+        pl = {"host": "emiranka0813.github.io", "key": anahtar.strip(),
+              "keyLocation": kok + "emiranka0813.github.io.txt",
+              "urlList": [kok, kok + "index-bday.html"]}
+        rq = _req.Request("https://api.indexnow.org/indexnow",
+                          data=_json.dumps(pl).encode(),
+                          headers={"Content-Type": "application/json"}, method="POST")
+        with _req.urlopen(rq, timeout=25) as rp:
+            kod = rp.status
+    except urllib.error.HTTPError as e:
+        kod = e.code
+    except Exception:
+        kod = 0
+    kontrol("IndexNow kabul edildi (200/202)", kod in (200, 202), f"HTTP {kod}")
+
 
 def main():
     ap = argparse.ArgumentParser(description="Sahra sitesi dogrulama")
