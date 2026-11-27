@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # SAHRA SİTESİ — TEK KOMUT DOĞRULAMA
 #
-#   bash tools/run_tests.sh
+#   bash _tools/run_tests.sh
 #
 # Yapar:
-#   1) Statik kontroller (tools/verify.py --static)
+#   1) Statik kontroller (_tools/verify.py --static)
 #   2) Playwright: yerel sunucu + canli, iki sayfa x 3 viewport
-#   3) Canli kontroller (tools/verify.py)
+#   3) Canli kontroller (_tools/verify.py)
 #
 # Cikis kodu: 0 = hepsi gecti, 1 = hata var
 set -u
@@ -23,7 +23,7 @@ echo "======================================================================"
 # ── 1) STATİK ─────────────────────────────────────────────────────────
 echo ""
 echo "[1/4] Statik kontroller"
-python tools/verify.py --static || BASARI=1
+python _tools/verify.py --static || BASARI=1
 
 # ── 2) YEREL SUNUCU ───────────────────────────────────────────────────
 echo ""
@@ -58,7 +58,7 @@ kill $SRV 2>/dev/null
 # ── 4) CANLI ──────────────────────────────────────────────────────────
 echo ""
 echo "[4/4] Canli kontroller"
-python tools/verify.py || BASARI=1
+python _tools/verify.py || BASARI=1
 
 echo ""
 echo "======================================================================"

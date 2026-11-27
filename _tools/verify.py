@@ -207,6 +207,15 @@ def canli(base):
     kontrol("canli bday 20 foto", bday.count("-800.webp") >= 20, str(bday.count("-800.webp")))
     kontrol("canli bday kirik ad yok", "sampiyon.jpg" not in bday)
 
+    # Test dosyalari internete acik olmamali
+    print("\n[6] Test dosyalari gizli mi?")
+    for gizli in ("_tools/verify.py", "_test_yeni.py", "_test_bday.py", "Makefile"):
+        k = fetch(f"{base_dir}/{gizli}")
+        kontrol(f"'{gizli}' internete acik DEGIL", len(k) < 500 or "404" in k[:200]
+                or "<title>Error 404" in k, f"{len(k)} bayt")
+    anahtar = fetch(f"{base_dir}/emiranka0813.github.io.txt")
+    kontrol("IndexNow anahtari yayimlanmis", len(anahtar.strip()) >= 8, anahtar.strip()[:20])
+
 
 def main():
     ap = argparse.ArgumentParser(description="Sahra sitesi dogrulama")
