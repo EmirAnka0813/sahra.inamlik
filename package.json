@@ -1,0 +1,11 @@
+{
+  "name": "sahra-inamlik",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sahra İnamlık — resmî tanıtım sitesi ve basın kiti (GitHub Pages)",
+  "scripts": {
+    "test": "bash run.sh",
+    "verify": "bash run.sh verify",
+    "serve": "bash run.sh serve"
+  }
+}

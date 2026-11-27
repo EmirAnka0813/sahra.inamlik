@@ -9,8 +9,9 @@ _live.html
 _n.html
 _sahra_*.html
 
-# NOT: tools/ VE _test_*.py KALICI OLARAK REPOYA GIRER.
-#   tools/verify.py + tools/run_tests.sh -> "bash tools/run_tests.sh"
-#   _test_yeni.py + _test_bday.py      -> Playwright testleri
-# Bunlar olmadan proje yeniden dogrulanamaz.
-# Gecici analiz araclari (ev klasorunde) repoya girmez.
+# NOT: _tools/ ve _test_*.py KALICI OLARAK REPOYA GIRER.
+#   bash run.sh          -> tam dogrulama (statik + Playwright + canli)
+#   bash run.sh verify   -> sadece statik
+#   _tools/ alt dizini GitHub Pages tarafindan serve EDILMEZ,
+#   boylece test dosyalari internete acik degildir.
+# NOT: run.sh root'ta kalir — kanonik komut giris noktasi.
