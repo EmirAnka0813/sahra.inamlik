@@ -66,6 +66,12 @@ def statik():
                     ("og:image", r'property="og:image"'), ("og:url", r'property="og:url"')):
         kontrol(f"{ad} var", bool(re.search(pat, ih)))
     kontrol("H1 tam 1", len(re.findall(r"<h1[ >]", ih, re.I)) == 1)
+    h1m = re.search(r"<h1[^>]*>(.*?)</h1>", ih, re.S | re.I)
+    h1_txt = re.sub(r"<[^>]+>", " ", h1m.group(1)) if h1m else ""
+    h1_txt = re.sub(r"\s+", " ", h1_txt).strip()
+    kontrol("H1 icinde 'Sahra İnamlık' KESINTISIZ", "Sahra İnamlık" in h1_txt, h1_txt[:56])
+    kontrol("H1 metin olarak 'Sahra İnamlık' iceriyor",
+            "Sahra" in h1_txt and "İnamlık" in h1_txt)
     kontrol("H2 7", len(re.findall(r"<h2[ >]", ih, re.I)) == 7)
     kontrol("mukerrer meta yok",
             ih.count('name="twitter:title"') == 1 and ih.count('name="robots"') == 1
