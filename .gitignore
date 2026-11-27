@@ -1,10 +1,16 @@
+# Godot / gecici ciktilar
 shots/
 shots_*.png
 .netlify/
-*.py
 *.log
 __pycache__/
 _l.html
 _live.html
 _n.html
 _sahra_*.html
+
+# NOT: tools/ VE _test_*.py KALICI OLARAK REPOYA GIRER.
+#   tools/verify.py + tools/run_tests.sh -> "bash tools/run_tests.sh"
+#   _test_yeni.py + _test_bday.py      -> Playwright testleri
+# Bunlar olmadan proje yeniden dogrulanamaz.
+# Gecici analiz araclari (ev klasorunde) repoya girmez.
