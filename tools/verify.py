@@ -141,6 +141,46 @@ def statik():
     kontrol("bday 1600px mevcut",
             all((PHOTOS / f"{a}-1600.webp").exists() for a in bday_foto))
 
+    print("\n[5] İsim sorgusu görünürlüğü — 'Sahra İnamlık'")
+    # H1: isim kesintisiz olmali (Google metni birlikte okumali)
+    h1m = re.search(r"<h1[^>]*>(.*?)</h1>", ih, re.S | re.I)
+    h1_txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", h1m.group(1))).strip() if h1m else ""
+    kontrol("H1 icinde 'Sahra İnamlık' kesintisiz", "Sahra İnamlık" in h1_txt, h1_txt[:46])
+    # title + description + og:title ayni ismi tasiyor mu
+    for ad, pat in (("title", r"<title[^>]*>(.*?)</title>"),
+                    ("og:title", r'property="og:title"[^>]*content="([^"]*)"')):
+        m = re.search(pat, ih, re.S | re.I)
+        kontrol(f"{ad} 'Sahra İnamlık' iceriyor", bool(m) and "Sahra İnamlık" in m.group(1),
+                m.group(1)[:44] if m else "-")
+    # entity baglantisi (sameAs) — isim sorgusunun asil kaldiraci
+    ldj = re.findall(r'<script type="application/ld\+json">(.*?)</script>', ih, re.S)
+    same_as = []
+    if ldj:
+        j = json.loads(ldj[0])
+        p = next((n for n in j.get("@graph", []) if n.get("@type") == "Person"), {})
+        same_as = p.get("sameAs", [])
+    kontrol("JSON-LD Person sameAs >= 5", len(same_as) >= 5, str(len(same_as)))
+    kontrol("sameAs haber kaynaklarina bagli",
+            all(d in ih for d in ("gundemebakis", "egetelgraf", "egeyonhaber", "kanal3")))
+    # ilk 1000 karakterde isim (snippet olusturma)
+    body = ih[ih.find("<body"):]
+    text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ",
+                  re.sub(r"<script.*?</script>|<style.*?</style>", " ", body, flags=re.S)))
+    kontrol("ilk 1000 karakterde 'Sahra İnamlık'",
+            "Sahra İnamlık" in text[:1000], str(text[:1000].count("Sahra İnamlık")))
+    # ayni @id iki sayfada (entity birlestirme)
+    def person_id(ic):
+        b = re.findall(r'<script type="application/ld\+json">(.*?)</script>', ic, re.S)
+        if not b:
+            return None
+        jj = json.loads(b[0])
+        n = jj if jj.get("@type") == "Person" else next(
+            (x for x in jj.get("@graph", []) if x.get("@type") == "Person"), {})
+        return n.get("@id")
+    kontrol("iki sayfada ayni Person @id",
+            person_id(ih) == person_id(bh) is not None,
+            f"{person_id(ih)} == {person_id(bh)}")
+
 
 def canli(base):
     """Canli URL uzerinden dogrulama."""
