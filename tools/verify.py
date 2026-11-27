@@ -73,6 +73,43 @@ def statik():
     kontrol("bos UTF-8 (index.html)", "\ufffd" not in ih)
     kontrol("bos UTF-8 (index-bday.html)", "\ufffd" not in bh)
 
+    print("\n[2b] Yapısal veri — JSON-LD Person entity")
+    ld = re.findall(r'<script type="application/ld\+json">(.*?)</script>', ih, re.S)
+    kontrol("JSON-LD blogu var", len(ld) == 1, str(len(ld)))
+    if ld:
+        try:
+            j = json.loads(ld[0])
+            kontrol("JSON-LD gecerli", True)
+            kontrol("@context schema.org", j.get("@context") == "https://schema.org")
+            graf = j.get("@graph", [])
+            turler = [n.get("@type") for n in graf]
+            kontrol("Person entity VAR", "Person" in turler, str(turler))
+            kontrol("WebSite entity VAR", "WebSite" in turler)
+            kontrol("ProfilePage entity VAR", "ProfilePage" in turler)
+            p = next((n for n in graf if n.get("@type") == "Person"), {})
+            kontrol("Person name dogru", p.get("name") == "Sahra İnamlık", str(p.get("name")))
+            kontrol("Person @id sabit", p.get("@id", "").endswith("#sahra"))
+            kontrol("Person sameAs >= 5", len(p.get("sameAs", [])) >= 5, str(len(p.get("sameAs", []))))
+            kontrol("sameAs haber kaynaklarina bagli",
+                    any("gundemebakis" in s for s in p.get("sameAs", []))
+                    and any("egetelgraf" in s for s in p.get("sameAs", [])))
+            kontrol("Person birthDate", p.get("birthDate") == "1994-11-29", str(p.get("birthDate")))
+            kontrol("Person award >= 4", len(p.get("award", [])) >= 4, str(len(p.get("award", []))))
+            kontrol("Person jobTitle", p.get("jobTitle") == "Milli Dansçı")
+        except json.JSONDecodeError as e:
+            kontrol("JSON-LD gecerli", False, str(e)[:80])
+    # bday sayfasinda da ayni @id
+    ldb = re.findall(r'<script type="application/ld\+json">(.*?)</script>', bh, re.S)
+    kontrol("bday JSON-LD var", len(ldb) == 1, str(len(ldb)))
+    if ldb:
+        try:
+            jb = json.loads(ldb[0])
+            kontrol("bday JSON-LD gecerli", True)
+            kontrol("bday ayni @id ile bagli", jb.get("@id", "").endswith("#sahra"))
+            kontrol("bday sameAs >= 4", len(jb.get("sameAs", [])) >= 4)
+        except json.JSONDecodeError as e:
+            kontrol("bday JSON-LD gecerli", False, str(e)[:80])
+
     print("\n[3] Galeri / medya")
     gal = re.findall(r'\{f:"([^"]+)"', ih)
     vid = re.findall(r'\{id:"([\w-]{11})"', ih)
