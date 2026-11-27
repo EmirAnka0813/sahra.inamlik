@@ -153,12 +153,6 @@
       "tur": "Belgesel"
     },
     {
-      "id": "cFRyrWb2JQg",
-      "baslik": "Bornova'da Diyabet Farkındalığı: Milli Dansçı Sahra İnamlık'tan İlham Veren Mesaj",
-      "kanal": "Belgesel",
-      "tur": "Röportaj"
-    },
-    {
       "id": "GKoj707pXcI",
       "baslik": "Sahra İnamlık Diyabet Hastalığıyla Nasıl Mücadele Ediyor?",
       "kanal": "Çağla ile Yeni Bir Gün",
@@ -166,5 +160,5 @@
     }
   ],
   "fotoSayisi": 22,
-  "videoSayisi": 4
+  "videoSayisi": 3
 }
